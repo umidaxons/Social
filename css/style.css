@@ -1,0 +1,67 @@
+@import "./global.css";
+
+.main {
+  background-color: var(--bg-color);
+}
+.main__container {
+  width: 100%;
+  max-width: 384px;
+  height: 100%;
+  max-height: 611px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: var(--bg-main-color);
+}
+
+.main__container__img {
+  margin-left: 148px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+.main__container__title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--text-color);
+  margin-bottom: 4px;
+}
+.main__container__subtitle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--subtitle-color);
+  margin-bottom: 24px;
+}
+.main__container__description {
+  color: var(--text-color);
+  margin-bottom: 24px;
+}
+.main__container__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.main__container__item {
+  width: 100%;
+  max-width: 304px;
+  height: 100%;
+  max-height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: auto;
+  padding-right: auto;
+  border-radius: 8px;
+  background-color: var(--link-bg-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+.main__container__item:active {
+  background-color: var(--subtitle-color);
+}
+
+.main__container__link {
+  color: var(--text-color);
+}

@@ -1,0 +1,15 @@
+:root {
+  --bg-color: #141414;
+  --bg-main-color: #1f1f1f;
+  --text-color: #ffffff;
+  --link-bg-color: #333333;
+  --subtitle-color: #c4f82a;
+}
+
+.light {
+  --subtitle-color: #c20a19;
+  --bg-color: #ffffff;
+  --bg-main-color: #87ccd8;
+  --text-color: #000000;
+  --link-bg-color: #757db8;
+}
